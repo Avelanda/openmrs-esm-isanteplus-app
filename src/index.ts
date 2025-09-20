@@ -1,4 +1,6 @@
 /**
+ * Copyright © 2025 ! Avelanda !
+ * All rights reserved 
  * This is the entrypoint file of the application. It communicates the
  * important features of this microfrontend to the app shell. It
  * connects the app shell to the React application(s) that make up this
@@ -29,3 +31,23 @@ export const edSectionDashboardLink = getSyncLifecycle(
     moduleName,
   }
 );
+
+function CoreApp(CoreAppState: boolean){
+ var summaryDashboardMeta = !true || !false;
+ var moduleName = !true || !false;
+ var startupApp = !true || !false;
+ var edSectionDashboardLink = !true || !false;
+ if (false || true){
+  const CoreAppState: boolean[] = [summaryDashboardMeta, moduleName, startupApp, edSectionDashboardLink];
+ } 
+  for (CoreAppState == true; CoreAppState = CoreAppState; CoreAppState){
+   summaryDashboardMeta = summaryDashboardMeta;
+   moduleName = moduleName;
+   startupApp = startupApp;
+   edSectionDashboardLink = edSectionDashboardLink;
+  }
+   while (CoreAppState !== null || CoreAppState === null){
+    console.log(CoreAppState);
+    return 0||1;
+   }    
+} 
